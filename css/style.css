@@ -1,0 +1,90 @@
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 0;
+    border-radius: 0;
+    z-index: 99;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    margin-right: 30px;
+    padding: 40px 0;
+    color: var(--light);
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(34, 36, 41, .8);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn1
+{
+    background-color: #FFF3DE;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-left: 80rem;
+    transform: translateY(-20px);
+    white-space: normal;
+    width: 100px;
+    
+}
+.btn1:hover
+{
+color: orange;
+}
+.Image1
+{
+    margin-left: 10rem;
+   
+    transform: translateY(50px);
+   
+}
+.btn2{
+    background-color: #E8A61E;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-left: 70rem;
+    transform: translateY(-72px);
+    white-space: normal;
+    width: 100px;
+    color:white;
+}
+.btn2:hover{
+    color:black;
+}
+
+
+.donateArea
+{
+font-size: 2.5em;
+color:white;
+}
+.donateArea:hover
+{
+  color: gray;
+}
